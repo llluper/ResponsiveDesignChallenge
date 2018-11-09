@@ -182,13 +182,8 @@ img.square {
   }
   margin-top: 20px;
 }
-.images, .top-section  {
-  margin-top: 30px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
+.top-section  {
+  margin-top: 20px;
 }
 .second-button{
   @media screen and (max-width: 767px) {
