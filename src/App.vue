@@ -6,8 +6,8 @@
           <MainText />
           <List v-if="windowWidth < 768" class="list-home" />
           <img src="./assets/images/image-leaves.jpeg" alt="Leaves" class="square">
-          <div class="last-button">
-            <Button v-if="windowWidth > 767" text="BUTTON" class="button-home" />
+          <div class="last-button" v-if="windowWidth > 767">
+            <Button text="BUTTON" class="button-home" />
           </div>
         </div>
         <div class="column is-6-tablet">
