@@ -1,4 +1,4 @@
-# chromatix
+# Responsive Design Challenge
 
 ## Project setup
 ```
